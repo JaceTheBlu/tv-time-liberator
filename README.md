@@ -23,11 +23,18 @@ Frustrated with your data being held hostage by TV Time? This script will libera
 
 ### Extension
 
-#### Easy Mode
+#### Easy Mode (Chrome)
 1. Go to the [Chrome Web Store](https://chromewebstore.google.com/detail/tv-time-liberator-extensi/pohobkcjhigehafgnhehkanhjakajhpm)
 1. Click on the "Add to Chrome" button
 1. Liberate your data
-1. Firefox support: use "Advanced Mode" below to load the packaged extension in Firefox
+
+#### Easy Mode (Firefox)
+1. Download the extension from the latest build [here](https://github.com/Hobo-Ware/tv-time-liberator/actions/workflows/build.yml)
+1. In Firefox, open `about:debugging#/runtime/this-firefox`
+1. Click "Load Temporary Add-on..." and select `/src/extension/dist/manifest.json`
+1. Login to TV Time
+1. Click on the extension icon
+1. Liberate your data
 
 #### Advanced Mode
 1. Download the extension from the latest build [here](https://github.com/Hobo-Ware/tv-time-liberator/actions/workflows/build.yml)
